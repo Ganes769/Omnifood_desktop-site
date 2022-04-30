@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+
+}
+
+
+/* Header and navbar*/
+.logo {
+    height: 2.8rem;
+
+}
+
+.header {
+    padding: 0 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fdf2e9;
+    height: 9.6rem;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s;
+
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+    max-width: 50%;
+    font-weight: 500;
+    transition: all 0.3s;
+    border-radius: 150px;
+    text-decoration: none;
+    padding: 1.2rem 3.2rem;
+    font-size: 1.9rem;
+    background-color: #e67e22;
+    color: white;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+    background-color: #994f0e;
+
+}
+
+
+/* Resualble Generals:*/
+.section-how {
+    padding: 9.6rem 0;
+    font-size: 10px;
+
+}
+
+.container {
+    padding: 0 3.2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid {
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    display: grid;
+    gap: 1.6rem;
+
+}
+
+.grid-2-column {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.grid-3-column {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.step-image {
+    width: 50%;
+}
+
+.sdubheading {
+    letter-spacing: 0.5px;
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.secondary-hwdaing {
+    margin-bottom: 9.5rem;
+    font-size: 5.5rem;
+    color: #333;
+    line-height: 1.2;
+
+}
+
+.step-number {
+    font-size: 8.9rem;
+    color: #ccc;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.heading-tertiry {
+    font-size: 3.0rem;
+    font-weight: lighter;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+.step-description {
+    font-size: 1.9rem;
+    color: black;
+}
+
+.step-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*FEATURED AREA*/
+.heading-feature-in {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+    color: #888;
+}
+
+.section-feature {
+    padding: 4.2rem 0;
+}
+
+.logos {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+.section-meals {
+    padding: 9.6rem 0;
+}
+
+.testmonial-container {
+
+    padding: 9.6rem 6.0rem;
+}
+
+.testomonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 12rem;
+}
+
+.testmonial-image {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.textmonial-text {
+    color: black;
+    font-size: 2.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+
+}
+
+
+
+.testmonial-name {
+    font-size: 1.6rem;
+    color: #777;
+}
+
+.gallery-item img {
+
+
+    transition: all 0.4s;
+    width: 100%;
+    display: block;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery {
+    padding: 1.6rem;
+    gap: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.secrion-testimonials {
+    background-color: #fdf2e9;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 55fr, 45fr;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Pricinfg Section   */
+.section-pricing {
+
+    padding: 10.6rem;
+}
+
+.plan-price {
+    margin-bottom: 1.6rem;
+
+    font-size: 7.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.plan-name {
+    margin-bottom: 3.2rem;
+    color: #cf711f;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    font-weight: 500;
+}
+
+.plamn-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.plan-text {
+    font-size: 2.4rem;
+    line-height: 1.8;
+    color: #6f6f6f;
+}
+
+.plan-price span {
+    margin-right: 1.2rem;
+    font-weight: 400;
+
+    font-size: 5.6rem;
+}
+
+.plan-signup {
+
+
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2.6rem;
+}
+
+.pricing-plan {
+    padding: 4.8rem;
+    border-radius: 11px;
+
+}
+
+.plan-complete {
+    border: 2px solid #333;
+    background-color: white;
+}
+
+.pay-plan {
+    overflow: hidden;
+    position: relative;
+    background-color: #fdf2e9;
+}
+
+.pay-plan::after {
+
+    transform: rotate(45deg);
+    font-size: 1.5rem;
+    padding: 0.9rem 10rem;
+    color: #333;
+    content: "Best Value";
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 6%;
+    right: -18%;
+    background-color: #ffd43b;
+
+
+}
+
+.grid-4-column {
+    margin-top: 10.2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.feature-icon {
+    padding: 1.6rem;
+    border-radius: 50%;
+    background-color: #fdf2e9;
+    color: #e67e22;
+    height: 4.2rem;
+    width: 4.2rem;
+    margin-bottom: 3.4rem;
+
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.feature-tittle {
+    margin-bottom: 1.6rem;
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.plan-details {
+    margin-top: 2.5rem;
+    color: red;
+    font-size: 2.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer Area */
+.grid-5-column {
+
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer {
+    margin-top: 12.2rem;
+    border-top: 1px solid #ddd;
+    padding: 9.6rem 0;
+}
+
+.footer-heading {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+li.footer-link {
+    transition: all 0.3s;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #777;
+}
+
+li.footer-link:hover {
+    color: #e67e22;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icon {
+    margin-top: 2.5rem;
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #777;
+}
+
+.copy-right {
+    margin-top: auto;
+    font-size: 1.4rem;
+    color: #767676;
+    line-height: 1.6;
+}
+
+.contacts {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color: #777;
+}

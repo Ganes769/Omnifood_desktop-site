@@ -1,0 +1,331 @@
+/* Hero section with images and slogen of project*/
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 4.6rem 0 5.6rem 0;
+
+}
+
+.hero {
+    gap: 10.6;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.heading-primary {
+    letter-spacing: -0.5px;
+    color: #333;
+    margin-bottom: 3.2rem;
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-description {
+    word-spacing: 0.5px;
+    margin-bottom: 4.1rem;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.btn:link,
+.btn:visited {
+    transition: all 1s;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 2rem 3rem;
+    font-size: 2.2rem;
+    color: white;
+
+
+
+}
+
+.btn--full:link,
+.btn--full:visited {
+    background-color: #e67e22;
+}
+
+.btn--full:hover,
+.btn--full:active {
+    background-color: #994f0e;
+
+}
+
+.btn-learn:link,
+.btn-learn:visited {
+    background-color: white;
+    color: rgb(31, 65, 26);
+}
+
+.btn-learn:hover,
+.btn-learn:active {
+    border-color: #c2b1a3;
+    box-shadow: inset 0 0 0 3px rgb(201, 190, 190);
+}
+
+.margin-rightsm {
+    margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 4.8rem;
+    display: flex;
+}
+
+.delivered-face {
+    margin-right: 3.2rem;
+
+    display: flex;
+}
+
+.delivered-face img {
+    margin-right: -1.9rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    border: 3px solid rgb(235, 221, 221);
+}
+
+.deliver-text {
+
+    padding-right: px;
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.deliver-text span {
+    color: #994f0e;
+}
+
+/*Catrgory Sections*/
+.meal-image {
+
+    width: 100%;
+}
+
+.meal-tittle {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.meal-attributes {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.meal-attributes {
+    font-size: 2.5rem;
+}
+
+.meal-con {
+    height: 2.1rem;
+    width: 2.1rem;
+    color: #e67e22;
+}
+
+.meal-attribute {
+    font-size: 2.2rem;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.tag {
+    border-radius: 100px;
+    color: white;
+    background-color: #51cf66;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    text-transform: uppercase;
+}
+
+
+.meal {
+    transition: all 0.4s;
+    margin-right: 60px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0.0, 0.1);
+}
+
+.meal-content {
+    padding: 2.8rem 4.8rem 4.8rem 4.8rem
+}
+
+span.tag.gas {
+    background-color: #ffd43b;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    list-style: none;
+}
+
+.list-items {
+    font-size: 1.9rem;
+    align-items: center;
+    display: flex;
+    gap: 1.16rem;
+}
+
+.diet-heading {
+    margin-bottom: 1.2rem;
+
+    color: black;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.all_recipes {
+    margin-top: 3.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+.links:link,
+.links:visited {
+    color: #e67e22;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+.links:hover,
+.links:active {
+    border-bottom: none;
+}
+
+.meal:hover {
+    transform: translateY(-1.3rem);
+    box-shadow: 0 2.4rem 4.8rem rgba(46, 46, 46, 0.1);
+}
+
+/*Testomonials and gallery*/
+.secrion-testimonials {
+    padding: 9.6rem 0;
+}
+
+/* Call To Action part*/
+.cta {
+    border-radius: 11px;
+    background-image: linear-gradient(360deg, #eb984e, #e67e22);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #e67e22;
+    height: 50rem;
+}
+
+.cta-image-box {
+    border-radius: 11px;
+    background-image: linear-gradient(360deg, #eb974e3a, #ec7a164d), url(../img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cta-text {
+    margin-top: -6.5rem;
+    line-height: 1.8;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.cta-text-box {
+    padding: 1.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.secondary-hwdaing .head {
+    margin-bottom: 1.5rem;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.cta-form label {
+    color: black;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.9rem;
+}
+
+.cta-form input,
+.cta-form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px black;
+
+}
+
+
+button.btns {
+    height: 5.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+    border: none;
+
+
+    border-radius: 9px;
+    box-shadow: 0 1px 2px black;
+}
+
+button.btns.btns-fotm {
+    transition: all 0.3s;
+    color: #fdf2e9;
+    align-self: flex-end;
+    background-color: #803f07;
+}
+
+.section-cta {
+    padding-bottom: 20px;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgb(158, 139, 139);
+}
+
+button.btns.btns-fotm:hover {
+    color: black;
+    background-color: white;
+}
+
+.section-cta {
+    margin-bottom: 20px;
+}
